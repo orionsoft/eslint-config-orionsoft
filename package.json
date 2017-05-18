@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-orionsoft",
   "description": "Orionsoft ESLint config",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "author": {
     "name": "Nicolás López",
     "url": "https://github.com/orionsoft"
@@ -12,13 +12,17 @@
   "homepage": "https://github.com/orionsoft/eslint-config-orionsoft",
   "license": "MIT",
   "main": "index.js",
+  "files": [
+    "index.js",
+    "eslintrc.json"
+  ],
   "dependencies": {
     "babel-eslint": "^7.2.3",
     "eslint": ">=3.19.0",
     "eslint-plugin-import": ">=2.2.0",
     "eslint-plugin-node": ">=4.2.2",
     "eslint-plugin-promise": ">=3.5.0",
-    "eslint-plugin-standard": ">=3.0.0"
+    "eslint-plugin-react": "^7.0.1"
   },
   "repository": {
     "type": "git",

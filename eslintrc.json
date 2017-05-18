@@ -17,7 +17,8 @@
     "import",
     "node",
     "promise",
-    "standard"
+    "standard",
+    "react"
   ],
 
   "globals": {
@@ -134,7 +135,7 @@
     "no-unreachable": 1,
     "no-unsafe-finally": 1,
     "no-unsafe-negation": 1,
-    "no-unused-expressions": [1, { "allowShortCircuit": true, "allowTernary": true, "allowTaggedTemplates": true }],
+    "no-unused-expressions": [1, { "allowShortCircuit": true, "allowTernary": true }],
     "no-unused-vars": [1, { "vars": "all", "args": "none", "ignoreRestSiblings": true }],
     "no-use-before-define": [1, { "functions": false, "classes": false, "variables": false }],
     "no-useless-call": 1,
@@ -148,7 +149,6 @@
     "object-property-newline": [1, { "allowMultiplePropertiesPerLine": true }],
     "one-var": [1, { "initialized": "never" }],
     "operator-linebreak": [1, "after", { "overrides": { "?": "before", ":": "before" } }],
-    "padded-blocks": [1, { "blocks": "never", "switches": "never", "classes": "never" }],
     "prefer-promise-reject-errors": 1,
     "quotes": [1, "single", { "avoidEscape": true, "allowTemplateLiterals": true }],
     "rest-spread-spacing": [1, "never"],
@@ -185,7 +185,20 @@
 
     "standard/array-bracket-even-spacing": [1, "either"],
     "standard/computed-property-even-spacing": [1, "even"],
-    "standard/no-callback-literal": 1,
-    "standard/object-curly-even-spacing": [1, "either"]
+    "standard/object-curly-even-spacing": [1, "either"],
+
+    "react/jsx-no-bind": [1, {
+      "allowArrowFunctions": true,
+      "allowBind": false,
+      "ignoreRefs": true
+    }],
+    "react/no-did-update-set-state": 1,
+    "react/no-unknown-property": 1,
+    "react/no-unused-prop-types": 1,
+    "react/prop-types": 1,
+    "react/react-in-jsx-scope": 1,
+    "react/no-unused-prop-types": 0,
+
+    "padded-blocks": 0
   }
 }

@@ -227,6 +227,6 @@
     "react/no-unused-prop-types": 0,
 
     "padded-blocks": 0,
-    "space-before-function-paren": 0
+    "space-before-function-paren": ["error", "never"]
   }
 }

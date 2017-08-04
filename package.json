@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-orionsoft",
   "description": "Orionsoft ESLint config",
-  "version": "1.0.9",
+  "version": "1.0.12",
   "author": {
     "name": "Nicolás López",
     "url": "https://github.com/orionsoft"

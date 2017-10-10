@@ -19,7 +19,7 @@
     "jasmine": true
   },
 
-  "plugins": ["import", "node", "promise", "standard", "react"],
+  "plugins": ["import", "node", "promise", "react"],
 
   "extends": ["plugin:react/recommended"],
 
@@ -197,10 +197,6 @@
     "node/process-exit-as-throw": 1,
 
     "promise/param-names": 1,
-
-    "standard/array-bracket-even-spacing": [1, "either"],
-    "standard/computed-property-even-spacing": [1, "even"],
-    "standard/object-curly-even-spacing": [1, "either"],
 
     "react/jsx-no-bind": [
       1,

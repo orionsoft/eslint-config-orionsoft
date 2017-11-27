@@ -124,7 +124,6 @@
     "no-redeclare": 1,
     "no-regex-spaces": 1,
     "no-return-assign": [1, "except-parens"],
-    "no-return-await": 1,
     "no-self-assign": 1,
     "no-self-compare": 1,
     "no-sequences": 1,
@@ -216,6 +215,7 @@
     "react/no-unused-prop-types": 0,
     "padded-blocks": 0,
     "jsx-quotes": 0,
-    "space-before-function-paren": 0
+    "space-before-function-paren": 0,
+    "no-return-await": 0
   }
 }

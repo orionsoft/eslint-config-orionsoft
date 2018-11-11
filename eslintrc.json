@@ -4,10 +4,10 @@
     "ecmaVersion": 8,
     "ecmaFeatures": {
       "experimentalObjectRestSpread": true,
+      "legacyDecorators": true,
       "jsx": true
     },
-    "sourceType": "module",
-    "legacyDecorators": true
+    "sourceType": "module"
   },
 
   "env": {

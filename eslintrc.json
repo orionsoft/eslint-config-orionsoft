@@ -198,20 +198,13 @@
 
     "promise/param-names": 1,
 
-    "react/jsx-no-bind": [
-      1,
-      {
-        "allowArrowFunctions": true,
-        "allowBind": false,
-        "ignoreRefs": true
-      }
-    ],
     "react/no-did-update-set-state": 1,
     "react/no-unknown-property": 1,
     "react/prop-types": [1, {"skipUndeclared": true}],
 
     "react/react-in-jsx-scope": 1,
 
+    "react/jsx-no-bind": 0,
     "react/no-string-refs": 0,
     "react/display-name": 0,
     "react/no-unused-prop-types": 0,

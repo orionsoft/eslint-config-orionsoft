@@ -211,6 +211,7 @@
     "padded-blocks": 0,
     "jsx-quotes": 0,
     "space-before-function-paren": 0,
-    "no-return-await": 0
+    "no-return-await": 0,
+    "indent": "off"
   }
 }

@@ -18,7 +18,7 @@ module.exports = {
     jest: true
   },
 
-  plugins: ['import', 'node', 'promise', 'react', 'react-native'],
+  plugins: ['import', 'node', 'promise', 'react'],
 
   extends: ['plugin:react/recommended'],
 
@@ -210,8 +210,6 @@ module.exports = {
     'jsx-quotes': 0,
     'space-before-function-paren': 0,
     'no-return-await': 0,
-    indent: 'off',
-    'react-hooks/rules-of-hooks': 'error',
-    'react-hooks/exhaustive-deps': 'warn'
+    indent: 'off'
   }
 }

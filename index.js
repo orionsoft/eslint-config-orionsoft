@@ -1,6 +1,6 @@
 module.exports = {
   parserOptions: {
-    ecmaVersion: 11,
+    ecmaVersion: 10,
     sourceType: 'module',
     ecmaFeatures: {
       legacyDecorators: true,
@@ -8,13 +8,13 @@ module.exports = {
     }
   },
   env: {
-    es2020: true,
     node: true,
     browser: true,
     jest: true
   },
   globals: {
-    history: 'off'
+    history: 'off',
+    Promise: 'readonly'
   },
   settings: {
     react: {
@@ -24,8 +24,9 @@ module.exports = {
   extends: ['eslint:recommended', 'plugin:react/recommended'],
   plugins: ['react', 'react-native', 'react-hooks'],
   rules: {
-    'no-empty': ['error', {allowEmptyCatch: true}],
+    'no-empty': ['warn', {allowEmptyCatch: true}],
     'react/prop-types': [1, {skipUndeclared: true}],
-    'no-unused-vars': [1, {vars: 'all', args: 'none', ignoreRestSiblings: true}]
+    'no-unused-vars': [1, {vars: 'all', args: 'none', ignoreRestSiblings: true}],
+    'no-console': 'off'
   }
 }

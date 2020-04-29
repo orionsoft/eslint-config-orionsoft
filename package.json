@@ -13,6 +13,7 @@
     "index.js"
   ],
   "devDependencies": {
+    "babel-eslint": "^10.1.0",
     "eslint": "^6.0.0",
     "eslint-plugin-react": "^7.18.0",
     "eslint-plugin-react-hooks": "^2.3.0",

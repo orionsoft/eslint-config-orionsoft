@@ -28,6 +28,7 @@ module.exports = {
     'no-empty': ['warn', {allowEmptyCatch: true}],
     'react/prop-types': [1, {skipUndeclared: true}],
     'no-unused-vars': [1, {vars: 'all', args: 'none', ignoreRestSiblings: true}],
-    'no-console': 'off'
+    'no-console': 'off',
+    'react/no-string-refs': 'warn'
   }
 }

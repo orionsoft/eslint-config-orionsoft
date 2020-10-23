@@ -29,6 +29,9 @@ module.exports = {
     'react/prop-types': [1, {skipUndeclared: true}],
     'no-unused-vars': [1, {vars: 'all', args: 'none', ignoreRestSiblings: true}],
     'no-console': 'off',
-    'react/no-string-refs': 'warn'
+    'react/no-string-refs': 'warn',
+    // hooks
+    'react-hooks/rules-of-hooks': 'error', // Checks rules of Hooks
+    'react-hooks/exhaustive-deps': 'warn' // Checks effect dependencies
   }
 }
